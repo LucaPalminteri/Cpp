@@ -1,4 +1,6 @@
 #include <iostream>
+#include <stdio.h>
+#include <conio.h>
 
 using namespace std;
 
@@ -31,5 +33,18 @@ int main() {
    // volume of box 2
    volume = Box2.height * Box2.length * Box2.breadth;
    cout << "Volume of Box2 : " << volume <<endl;
+   
+   char a;
+   cin >> a;
+   if(a == 67) {
+   	cout << "Es 67";
+   } 
+   else
+   {
+   		cout << "nO ES 67";
+   }
+   
    return 0;
 }
+
+
